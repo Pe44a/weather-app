@@ -9,10 +9,24 @@
     <title>Document</title>
 </head>
 <body>
-    <form class="form">
-        <input type="search" name="city search" id="searchCity" placeholder="city">
-        <button type="submit">Search</button>
-    </form>
+    <div class="content">
+        <div class="weatherInfo">
+            <div class="city"></div>
+            <div class="temperature"></div>
+                <div class="otherInfo">
+                    <div class="feelsLike"></div>
+                    <div class="humidity"></div>
+                    <div class="windSpeed"></div>
+                </div>
+        </div>
+
+        <div class="weatherSearch">
+            <form class="form">
+                <input type="search" name="city search" id="searchCity" placeholder="city">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </div>
     
     <script src="script.js"></script>
 </body>
