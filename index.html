@@ -11,20 +11,37 @@
 <body>
     <div class="content">
         <div class="weatherInfo">
-            <div class="city"></div>
+
+            <div class="weatherImage">
+                <div class="city"></div>
+                <img src=""  class="image" alt="weather">
+            </div>
+
+
             <div class="temperature"></div>
+
                 <div class="otherInfo">
-                    <div class="feelsLike"></div>
-                    <div class="humidity"></div>
-                    <div class="windSpeed"></div>
+                    <div>Feels like
+                        <div class="feelsLike other"></div>
+                    </div>
+
+                    <div>Humidity
+                        <div class="humidity other"></div>
+                    </div>
+
+                    <div>Wind speed
+                        <div class="windSpeed other"></div>
+                    </div>
                 </div>
         </div>
 
         <div class="weatherSearch">
+
             <form class="form">
                 <input type="search" name="city search" id="searchCity" placeholder="city">
-                <button type="submit">Search</button>
+                <button type="submit" id="submitWeather">Search</button>
             </form>
+
         </div>
     </div>
     
