@@ -93,3 +93,6 @@ form.addEventListener('submit',(e)=> {
     displayWeatherData(getWeatherData(city));
     displayWeatherIcon(getWeatherData(city));
 });
+
+displayWeatherData(getWeatherData('new york'));
+displayWeatherIcon(getWeatherData('new york'));
